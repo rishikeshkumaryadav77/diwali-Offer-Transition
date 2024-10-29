@@ -1,0 +1,150 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.background-image {
+  background-image: url('diwali.jpg');
+  height: 30vh;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  
+}
+.game-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  width: 30rem;
+  margin: auto;
+}
+.button-container{
+  display: flex;
+  justify-content: center;
+  padding-top:0.2rem ;
+}
+
+.btn{
+  background-color: #edb11a;
+  padding: 3.5%;
+  border-radius: 8px;
+  border-width: 0px;
+  margin: 0.2rem;
+  
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.spinner{
+  width: 22rem;
+  padding-top: 2rem;
+}
+
+
+.offer-heading{
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 5px;
+  font-style: oblique;
+}
+.off{
+  text-shadow: 3px 2px 5px black;
+  color: #edb11a;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding-top: 1.5rem;
+  margin: 10px;
+}
+
+
+.background-color:hover .off{
+  color: black;
+  text-shadow: 3px 2px 5px red;
+}
+.total-heading {
+  color: black;
+  font-family: Caveat;
+  width: 60%;
+  padding: 44px;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 3px 2px 5px white;
+}
+
+.background-color {
+  background-color: #e6f6ff;
+  background-size: cover;
+  height: 150vh;
+  width: 100vw;
+  margin-top: 220px;
+}
+
+.item1 {
+  background-color: white;
+  text-align: center;
+  height: 180px;
+  width: 180px;
+  border-radius: 30px;
+  margin: 20px;
+  margin-top: 40px;
+
+
+}
+
+@media screen and (min-width: 500px) {
+  .item1{
+  height: fit-content;
+  padding: 10px;
+  }
+}
+
+.akash {
+ 
+  width: 50%;
+  padding-top: 10px;
+
+}
+
+.heading {
+  font-size: 12px;
+  color: #616e7c;
+  padding-top: 10px;
+}
+
+.para {
+  font-size: 20px;
+  color: #323f4b;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  border: white;
+  font-size: 13px;
+  padding: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.button1 {
+  background-color: blue;
+  color: white;
+  border-radius: 25px;
+  border: white;
+  font-size: 13px;
+  padding: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: center;
+
+}
+
+.item-container{
+  display: flex;
+  justify-content: center;
+}
