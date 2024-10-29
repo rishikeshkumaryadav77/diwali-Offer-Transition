@@ -8,8 +8,8 @@
   background-image: url('diwali.jpg');
   height: 30vh;
   background-size: cover;
-  position: fixed;
-  top: 0px;
+  /* position: fixed;
+  top: 0px; */
   width: 100%;
   
 }
@@ -107,7 +107,7 @@
   background-size: cover;
   height: 180vh;
   width: 100vw;
-  margin-top: 220px;
+  /* margin-top: 220px; */
 }
 
 .item1 {
@@ -122,12 +122,20 @@
 
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
   .item1{
   height: fit-content;
   padding: 10px;
   }
+  
 }
+
+
+/* @media screen and (max-width: 500px) {
+ .background-color{
+  margin-top: 500px;
+ }
+   */
 
 .akash {
  
